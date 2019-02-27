@@ -41,7 +41,7 @@ export interface CaseReducersMapObject<S = any, A extends Action = AnyAction> {
  *
  * @param initialState The initial state to be returned by the reducer.
  * @param actionsMap A mapping from action types to action-type-specific
- *   case redeucers.
+ *   case reducers.
  */
 export function createReducer<S = any, A extends Action = AnyAction>(
   initialState: S,
